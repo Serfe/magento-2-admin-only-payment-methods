@@ -1,0 +1,26 @@
+{
+    "name": "serfe/magento2-admin-only-payments-methods",
+    "description": "Allow to select which payment method should be only used on the backend",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@serfe.com",
+            "name": "Serfe"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-backend": "*",
+        "magento/module-payment": "*",
+        "magento/module-quote": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Serfe\\AdminOnlyPayments\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

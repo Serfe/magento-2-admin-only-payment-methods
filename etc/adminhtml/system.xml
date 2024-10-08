@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="serfe" translate="label" sortOrder="100" class="serfe">
+            <label><![CDATA[Serfe]]></label>
+        </tab>
+        <section id="admin_only_payments" translate="label" type="text" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Backend Payments Configuration</label>
+            <tab>serfe</tab>
+            <resource>Serfe_AdminOnlyPayments::config_backendpayments</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Enable or disable the backend payments restriction.</comment>
+                </field>
+                <field id="restricted_methods" translate="label comment" type="multiselect" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Restricted Payment Methods</label>
+                    <source_model>Serfe\AdminOnlyPayments\Model\Config\Source\PaymentMethods</source_model>
+                    <comment>Select payment methods to restrict to be only visible on the backend section. Unselected methods will be available on the frontend checkout section. Use Ctrl + click to select the methods on the list if not contigous.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
