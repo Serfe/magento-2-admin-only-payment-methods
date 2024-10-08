@@ -16,7 +16,7 @@ To install the **Admin Only Payment Methods** module, follow these steps:
    Run the following command in your terminal:
 
    ```bash
-   composer require serfe/module-admin-only-payments-methods
+   composer require serfe/magento2-admin-only-payments-methods
    ```
 
 2. **Update and Compile**:
