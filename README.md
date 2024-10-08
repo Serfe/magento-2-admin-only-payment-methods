@@ -1,7 +1,6 @@
 # Magento 2 Admin Only Payment Methods Module
 
 [![Latest Stable Version](https://poser.pugx.org/serfe/magento2-admin-only-payments-methods/version)](https://packagist.org/packages/serfe/magento2-admin-only-payments-methods)
-[![License](https://poser.pugx.org/serfe/magento2-admin-only-payments-methods/license)](https://packagist.org/packages/serfe/magento2-admin-only-payments-methods)
 
 Enhance your Magento 2 store's payment management with the **Admin Only Payment Methods** module. This powerful extension allows you to configure specific payment methods that are exclusively available in the backend interface, ensuring that your store owners can process transactions without exposing these options to frontend customers.
 
