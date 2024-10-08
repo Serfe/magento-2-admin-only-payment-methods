@@ -1,6 +1,6 @@
 # Magento 2 Admin Only Payment Methods Module
 
-[![Latest Stable Version](http://poser.pugx.org/serfe/magento2-admin-only-payments-methods/v/stable)](https://packagist.org/packages/serfe/magento2-admin-only-payments-methods)
+[![Latest Stable Version](http://poser.pugx.org/serfe/magento2-admin-only-payments-methods/v)](https://packagist.org/packages/serfe/magento2-admin-only-payments-methods)
 [![License](https://poser.pugx.org/serfe/magento2-admin-only-payments-methods/license)](https://packagist.org/packages/serfe/magento2-admin-only-payments-methods)
 [![Version](https://poser.pugx.org/serfe/magento2-admin-only-payments-methods/version)](https://packagist.org/packages/serfe/magento2-admin-only-payments-methods)
 
